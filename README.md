@@ -1,10 +1,12 @@
 # go_saltstack
 
 简单使用
+
+
 	P := &CONFIG{}
-	P.Salt_host = ""
-	P.Salt_user = ""
-	P.Salt_passwd = ""
+	P.Salt_host = ""    //salt——api地址
+	P.Salt_user = ""    //用户名
+	P.Salt_passwd = ""  //密码
 
 	err:=P.GET_TOKEN()
 	if err != nil{
